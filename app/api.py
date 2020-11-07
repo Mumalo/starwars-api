@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import jsonify
-from .config import STAR_WARS_ROOT_URL, STAR_SHIPS_PATH
-from .filters import sort_by_hyperdrive_rating
+from config import STAR_WARS_ROOT_URL, STAR_SHIPS_PATH
+from filters import sort_by_hyperdrive_rating
 
 import requests
 
