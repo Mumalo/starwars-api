@@ -81,7 +81,7 @@ Travis CI is used for Continuous Integration. Tests are automatically
 rn and checks are done against pep8 before automatic deployment to heroku.
 
 Below is a screen shot of a sample build from Travis CI
-![Build image](screenshots/Screenshot 2020-11-07 at 7.14.59 PM.png)
+[Build image](screenshots/Screenshot 2020-11-07 at 7.14.59 PM.png)
 
 [See live demo here](https://starships-api.herokuapp.com/starships)
 
