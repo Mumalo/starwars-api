@@ -1,0 +1,4 @@
+[flake8]
+exclude =
+  config.py, .git
+max-line-length = 119

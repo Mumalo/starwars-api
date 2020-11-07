@@ -3,3 +3,4 @@ gunicorn
 requests
 pytest
 nose
+flake8-flask
