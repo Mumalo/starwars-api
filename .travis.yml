@@ -10,4 +10,4 @@ services:
 before_script: pip install docker-compose
 
 script:
-  - docker-compose run api sh -c "python test_starship.py && flake8 &&"
+  - docker-compose run api sh -c "python test_starship.py && flake8"
