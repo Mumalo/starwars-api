@@ -15,6 +15,8 @@ Therefore Tech stack includes:
 * **pytest** for unit testing
 * **flake8** for pep8 style enforcement
 
+Builds are managed with [Travis CI](https://travis-ci.com/)
+
 ### Main Files: Project Structure
 
   ```sh
@@ -73,3 +75,10 @@ You should see a welcome message
 
 To see the sorted starships 
 visit [http://0.0.0.0:5000/starships](http://0.0.0.0:5000/starships)
+
+### Deployment Instructions
+Travis CI is used for Continuous Integration. Tests are automatically
+rn and checks are done against pep8 before automatic deployment to heroku.
+
+
+
