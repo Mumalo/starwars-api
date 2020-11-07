@@ -8,7 +8,6 @@ services:
     ports:
       - "5000:5000"
     command:
-      sh -c "python test_starship.py && flake8 &&
-      gunicorn wsgi:application -b 0.0.0.0:5000"
+      sh -c "export FLASK_APP=wsgi.py && flask run"
 
 

@@ -1,7 +1,7 @@
 from unittest.mock import patch
 from unittest import TestCase, main
-from api import app as application
-from api import get_starships
+from .api import app as application
+from .api import get_starships
 import json
 
 STARSHIPS_URL = '/starships'
